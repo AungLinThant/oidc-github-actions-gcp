@@ -33,7 +33,7 @@ jobs:
           workload_identity_provider: "projects/259655456214/locations/global/workloadIdentityPools/github-actions-pool-v5/providers/github-actions"
           # workload_identity_provider: '//iam.googleapis.com/projects/764560914203/locations/global/workloadIdentityPools/github-demo-pool/providers/YOUR_PROVIDER_ID'
           create_credentials_file: true
-          service_account: "github-actions-sa-29@winppk-app01.iam.gserviceaccount.com"
+          service_account: "github-actions-sa-567@winppk-app01.iam.gserviceaccount.com"
           token_format: "access_token"
           access_token_lifetime: "120s"
       - name: Echo stuff
