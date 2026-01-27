@@ -6,6 +6,6 @@ subnet_2_details = {
   cidr_block = "10.0.2.0/24"
 }
 
-project_id = "iam-oidc-provider-demo"
+project_id = "winppk-app01"
 
 region = "us-central1"
