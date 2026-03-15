@@ -30,7 +30,7 @@ jobs:
           # Value from command: gcloud iam workload-identity-pools providers describe [oicd ID given in WIF] --workload-identity-pool="[Provider ID ]" --location="global"
           # workload_identity_provider: "projects/764560914203/locations/global/workloadIdentityPools/github-demo-pool/subject/SUBJECT_ATTRIBUTE_VALUE"
           # workload_identity_provider: "principal://iam.googleapis.com/projects/764560914203/locations/global/workloadIdentityPools/github/subject/github-demo-pool"
-          workload_identity_provider: "projects/259655456214/locations/global/workloadIdentityPools/github-actions-pool-v6/providers/github-actions"
+          workload_identity_provider: "projects/259655456214/locations/global/workloadIdentityPools/github-actions-pool/providers/github-actions"
           # workload_identity_provider: '//iam.googleapis.com/projects/764560914203/locations/global/workloadIdentityPools/github-demo-pool/providers/YOUR_PROVIDER_ID'
           create_credentials_file: true
           service_account: "github-actions-sa@winppk-app01.iam.gserviceaccount.com"
